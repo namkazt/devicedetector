@@ -79,6 +79,8 @@ func NewDeviceDetector(dir string) (*DeviceDetector, error) {
 	d.deviceParsers = device.NewDeviceParsers(deviceDir,
 		[]string{
 			device.ParserNameHbbTv,
+			device.ParserNameShellTV,
+			device.ParserNameNotebook,
 			device.ParserNameConsole,
 			device.ParserNameCar,
 			device.ParserNameCamera,
