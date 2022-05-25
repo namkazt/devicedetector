@@ -3,9 +3,9 @@ package devicedetector
 import (
 	regexp "github.com/dlclark/regexp2"
 
-	. "github.com/gamebtc/devicedetector/parser"
-	"github.com/gamebtc/devicedetector/parser/client"
-	"github.com/gamebtc/devicedetector/parser/device"
+	. "github.com/namkazt/devicedetector/parser"
+	"github.com/namkazt/devicedetector/parser/client"
+	"github.com/namkazt/devicedetector/parser/device"
 )
 
 var (
@@ -17,9 +17,9 @@ var (
 type DeviceInfo struct {
 	userAgent string
 	device.DeviceMatchResult
-	client    *client.ClientMatchResult
-	os        *OsMatchResult
-	bot       *BotMatchResult
+	client *client.ClientMatchResult
+	os     *OsMatchResult
+	bot    *BotMatchResult
 }
 
 func (d *DeviceInfo) GetDeviceType() int {

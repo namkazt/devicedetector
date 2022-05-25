@@ -2,10 +2,11 @@ package parser
 
 import (
 	"errors"
-	"gopkg.in/yaml.v2"
 	"io/ioutil"
 	"strconv"
 	"strings"
+
+	"gopkg.in/yaml.v2"
 
 	regexp "github.com/dlclark/regexp2"
 )
@@ -95,7 +96,6 @@ func (r *Regular) IsMatchUserAgent(ua string) bool {
 }
 
 func (r *Regular) MatchUserAgent(ua string) []string {
-	//return r.Compile().FindStringSubmatch(ua)
 	if match, err := r.Compile().FindStringMatch(ua); err == nil && match != nil {
 		matches := make([]string, match.GroupCount())
 		for i, g := range match.Groups() {
@@ -112,14 +112,8 @@ func MatchUserAgent(ua, regex string) []string {
 }
 
 func BuildByMatch(item string, matches []string) string {
-	if strings.IndexByte(item, byte('$')) == -1 {
-		return item
-	}
-	for nb := 1; nb <= 3; nb++ {
+	for nb := 1; nb <= len(matches); nb++ {
 		key := "$" + strconv.Itoa(nb)
-		if !strings.Contains(item, key) {
-			continue
-		}
 		replace := ""
 		if nb < len(matches) {
 			replace = matches[nb]
@@ -142,9 +136,10 @@ func BuildVersion(versionString string, matches []string) string {
 	return ver
 }
 
-var(
+var (
 	tdReg = regexp.MustCompile(` TD$`, regexp.IgnoreCase)
 )
+
 func BuildModel(m string, matches []string) string {
 	model := BuildByMatch(m, matches)
 	model = strings.ReplaceAll(model, "_", " ")

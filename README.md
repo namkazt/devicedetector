@@ -1,22 +1,19 @@
-DeviceDetector
-==============
+# DeviceDetector
 
 ## Description
 
 The Universal Device Detection library for golang that parses User Agents and detects devices (desktop, tablet, mobile, tv, cars, console, etc.), clients (browsers, feed readers, media players, PIMs, ...), operating systems, brands and models.
-This is a port of the popular PHP [device-detector](https://github.com/matomo-org/device-detector) library to golang  For the most part you can just follow the documentation for device-detector with no issue.
+This is a port of the popular PHP [device-detector](https://github.com/matomo-org/device-detector) library to golang For the most part you can just follow the documentation for device-detector with no issue.
 
-Installation
-------------
+## Installation
 
 The recommended way to install device detector
 
 ```
-go get github.com/gamebtc/devicedetector
+go get github.com/namkazt/devicedetector
 ```
 
-Examples
---------
+## Examples
 
 ```go
 package main
@@ -25,7 +22,7 @@ import (
 	"fmt"
 	"log"
 
-	. "github.com/gamebtc/devicedetector"
+	. "github.com/namkazt/devicedetector"
 )
 
 func main() {
@@ -96,14 +93,13 @@ There are already a few ports of this tool to other languages:
 - **Crystal** https://github.com/creadone/device_detector
 - **Elixir** https://github.com/elixir-inspector/ua_inspector
 - **Java** https://github.com/mngsk/device-detector
-- **Go** https://github.com/gamebtc/devicedetector
-
+- **Go** https://github.com/namkazt/devicedetector
 
 ## What Device Detector is able to detect
 
 The lists below are auto generated and updated from time to time. Some of them might not be complete.
 
-*Last update: 2020/05/10*
+_Last update: 2020/05/10_
 
 ### List of detected operating systems:
 
@@ -127,7 +123,7 @@ Audacious, Banshee, Boxee, Clementine, Deezer, FlyCast, Foobar2000, Google Podca
 
 ### List of detected mobile apps:
 
-AndroidDownloadManager, AntennaPod, Apple News, Baidu Box App, BeyondPod, BingWebApp, bPod, CastBox, Castro, Castro 2, CrosswalkApp, DoggCatcher, douban App, Facebook, Facebook Messenger, FeedR, Flipboard App, Google Go, Google Play Newsstand, Google Plus, Google Search App, iCatcher, Instacast, Instagram App, Line, NewsArticle App, Overcast, Pinterest, Player FM, Pocket Casts, Podcast & Radio Addict, Podcast Republic, Podcasts, Podcat, Podcatcher Deluxe, Podkicker, RSSRadio, Sina Weibo, Snapchat, SogouSearch App, tieba, TopBuzz, Twitter, WeChat, WhatsApp, Yahoo! Japan, Yelp Mobile, YouTube and *mobile apps using [AFNetworking](https://github.com/AFNetworking/AFNetworking)*
+AndroidDownloadManager, AntennaPod, Apple News, Baidu Box App, BeyondPod, BingWebApp, bPod, CastBox, Castro, Castro 2, CrosswalkApp, DoggCatcher, douban App, Facebook, Facebook Messenger, FeedR, Flipboard App, Google Go, Google Play Newsstand, Google Plus, Google Search App, iCatcher, Instacast, Instagram App, Line, NewsArticle App, Overcast, Pinterest, Player FM, Pocket Casts, Podcast & Radio Addict, Podcast Republic, Podcasts, Podcat, Podcatcher Deluxe, Podkicker, RSSRadio, Sina Weibo, Snapchat, SogouSearch App, tieba, TopBuzz, Twitter, WeChat, WhatsApp, Yahoo! Japan, Yelp Mobile, YouTube and _mobile apps using [AFNetworking](https://github.com/AFNetworking/AFNetworking)_
 
 ### List of detected PIMs (personal information manager):
 

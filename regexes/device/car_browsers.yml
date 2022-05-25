@@ -7,10 +7,26 @@
 
 # Tesla Model S
 Tesla:
-  regex: '(?:Tesla/[0-9.]+|QtCarBrowser)'
+  regex: '(?:Tesla/(?:develop-)?[0-9.]+|QtCarBrowser)'
   device: 'car browser'
   models:
     - regex: 'QtCarBrowser'
       model: 'Model S'
     - regex: 'Tesla/[0-9.]+'
       model: ''
+
+# Mac Audio
+MAC AUDIO:
+  regex: 'Mac Audio Spro'
+  device: 'car browser'
+  models:
+    - regex: 'Spro'
+      model: 'S Pro'
+
+# Topway
+Topway:
+  regex: 'sp9853i_1h10_vmm'
+  device: 'car browser'
+  models:
+    - regex: 'sp9853i_1h10_vmm'
+      model: 'TS9'

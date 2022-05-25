@@ -8,9 +8,9 @@ import (
 	"gotest.tools/assert"
 
 	regexp "github.com/dlclark/regexp2"
-	. "github.com/gamebtc/devicedetector/parser"
-	"github.com/gamebtc/devicedetector/parser/client"
-	"github.com/gamebtc/devicedetector/parser/device"
+	. "github.com/namkazt/devicedetector/parser"
+	"github.com/namkazt/devicedetector/parser/client"
+	"github.com/namkazt/devicedetector/parser/device"
 )
 
 var dd, _ = NewDeviceDetector("regexes")

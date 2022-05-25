@@ -7,7 +7,7 @@
     short_name: BA
     version: "0.8.2"
     engine: Blink
-    engine_version: ""
+    engine_version: "66.0.3359.181"
 - 
   user_agent: Mozilla/5.0 (Linux; U; Android 4.1.2; zh-cn; GT-N7100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30; 360 Aphone Browser (6.8.7beta)
   client:
@@ -88,7 +88,7 @@
     short_name: AO
     version: "28.0.1500.74"
     engine: Blink
-    engine_version: ""
+    engine_version: "28.0.1500.74"
 - 
   user_agent: Mozilla/5.0 (Linux; U; Android 0.5; en-us) AppleWebKit/522+ (KHTML, like Gecko) Safari/419.3
   client:
@@ -205,7 +205,7 @@
     short_name: BR
     version: "0.7.9"
     engine: Blink
-    engine_version: ""
+    engine_version: "47.0.2526.73"
 - 
   user_agent: 'Mozilla/4.61 [en] (X11; U; ) - BrowseX (2.0.0 Windows)'
   client:
@@ -223,7 +223,7 @@
     short_name: CA
     version: "2.1.2"
     engine: Gecko
-    engine_version: ""
+    engine_version: "1.9.2.28"
 - 
   user_agent: Mozilla/5.0 (X11; Linux x86_64; rv:27.0) Gecko/20100101 Firefox/27.0 Cunaguaro/27.0
   client:
@@ -232,7 +232,7 @@
     short_name: CU
     version: "27.0"
     engine: Gecko
-    engine_version: ""
+    engine_version: "27.0"
 - 
   user_agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/45.0 Chrome/39.0.2171.74 Safari/537.36
   client:
@@ -241,7 +241,7 @@
     short_name: CC
     version: "45.0"
     engine: Blink
-    engine_version: ""
+    engine_version: "39.0.2171.74"
 - 
   user_agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Comodo_Dragon/17.1.0.0 Chrome/17.0.963.38 Safari/535.11
   client:
@@ -277,7 +277,7 @@
     short_name: HC
     version: "63.0.3205.0"
     engine: Blink
-    engine_version: ""
+    engine_version: "63.0.3205.0"
 - 
   user_agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/60.0.3112.78 Safari/537.36
   client:
@@ -286,7 +286,7 @@
     short_name: HC
     version: "60.0.3112.78"
     engine: Blink
-    engine_version: ""
+    engine_version: "60.0.3112.78"
 - 
   user_agent: Mozilla/5.0 ArchLinux (X11; U; Linux x86_64; en-US) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
   client:
@@ -304,7 +304,7 @@
     short_name: CM
     version: "61.0.3163.98"
     engine: Blink
-    engine_version: ""
+    engine_version: "61.0.3163.98"
 - 
   user_agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
   client:
@@ -313,7 +313,7 @@
     short_name: CH
     version: "36.0.1985.125"
     engine: Blink
-    engine_version: ""
+    engine_version: "36.0.1985.125"
 - 
   user_agent: Mozilla/5.0 (iPad; CPU OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) CriOS/31.0.1650.18 Mobile/10A523 Safari/8536.25
   client:
@@ -340,7 +340,7 @@
     short_name: CM
     version: "31.0.1650.59"
     engine: Blink
-    engine_version: ""
+    engine_version: "31.0.1650.59"
 - 
   user_agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.7 (KHTML, like Gecko) Chrome/16.0.912.63 Safari/535.7 CoolNovo/1.6.5.28
   client:
@@ -376,7 +376,7 @@
     short_name: CR
     version: "31.0.1650.63"
     engine: Blink
-    engine_version: ""
+    engine_version: "31.0.1650.63"
 - 
   user_agent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/418.9 (KHTML, like Gecko, Safari) Safari/419.3 Cheshire/1.0.ALPHA
   client:
@@ -466,7 +466,7 @@
     short_name: DD
     version: "5"
     engine: Blink
-    engine_version: ""
+    engine_version: "77.0.3865.92"
 - 
   user_agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/533+ (KHTML, like Gecko) Element Browser 5.0
   client:

@@ -477,39 +477,11 @@
     version:
     platform:
 -
-  user_agent: AtomicBrowser/3.7.1 CFNetwork/467.12 Darwin/10.3.1
-  os:
-    name: iOS
-    short_name: IOS
-    version: "3.2"
-    platform:
--
   user_agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_1 like Mac OS X; ru-ru) AppleWebKit/532.9 (KHTML, like Gecko) Mobile/8B117
   os:
     name: iOS
     short_name: IOS
     version: "4.1"
-    platform:
--
-  user_agent: CFNetwork/758.2.8 Darwin/15.0.0
-  os:
-    name: iOS
-    short_name: IOS
-    version: "9.2"
-    platform:
--
-  user_agent: CFNetwork/758.3.15 Darwin/15.4.0
-  os:
-    name: iOS
-    short_name: IOS
-    version: "9.3"
-    platform:
--
-  user_agent: SPORT1/4059 CFNetwork/758.4.3 Darwin/15.5.0
-  os:
-    name: iOS
-    short_name: IOS
-    version: "9.3.2"
     platform:
 -
   user_agent: Interflora/22 CFNetwork/808.0.1 Darwin/16.0.0

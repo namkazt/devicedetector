@@ -12,7 +12,14 @@ type Version struct {
 
 func (r *Version) Compile() {
 	if r.regexp == nil {
-		reg := r.Engine + `\s*\/?\s*((?(?=\d+\.\d)\d+[.\d]*|\d{1,7}(?=(?:\D|$))))`
+		reg := ""
+		if r.Engine == "Gecko" {
+			reg = `[ ](?:rv[: ]([0-9\.]+)).*gecko/[0-9]{8,10}`
+		} else if r.Engine == "Blink" {
+			reg = `Chrome\s*\/?\s*((?(?=\d+\.\d)\d+[.\d]*|\d{1,7}(?=(?:\D|$))))`
+		} else {
+			reg = r.Engine + `\s*\/?\s*((?(?=\d+\.\d)\d+[.\d]*|\d{1,7}(?=(?:\D|$))))`
+		}
 		r.regexp = regexp.MustCompile(reg, regexp.IgnoreCase)
 	}
 }

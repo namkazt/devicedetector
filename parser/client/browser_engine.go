@@ -3,7 +3,7 @@ package client
 import (
 	"path/filepath"
 
-	. "github.com/gamebtc/devicedetector/parser"
+	. "github.com/namkazt/devicedetector/parser"
 )
 
 // Known browser engines mapped to their internal short codes
@@ -23,6 +23,7 @@ var availableEngines = []string{
 	`NetSurf`,
 	`Servo`,
 	`Goanna`,
+	`EkiohFlow`,
 }
 
 const ParserNameBrowserEngine = `browserengine`
