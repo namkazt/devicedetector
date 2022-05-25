@@ -226,9 +226,9 @@ func NewOss(file string) (*Oss, error) {
 		return nil, err
 	}
 	ps := []*PlatformReg{
-		{Name: PlatformTypeARM, Regular: Regular{Regex: "arm"}},
-		{Name: PlatformTypeX64, Regular: Regular{Regex: "WOW64|x64|win64|amd64|x86_64"}},
-		{Name: PlatformTypeX86, Regular: Regular{Regex: "i[0-9]86|i86pc"}},
+		{Name: PlatformTypeARM, Regular: Regular{Regex: "arm|aarch64|Apple ?TV|Watch ?OS|Watch1,[12]"}},
+		{Name: PlatformTypeX64, Regular: Regular{Regex: "64-?bit|WOW64|(?:Intel)?x64|WINDOWS_64|win64|amd64|x86_?64"}},
+		{Name: PlatformTypeX86, Regular: Regular{Regex: ".+32bit|.+win32|(?:i[0-9]|x)86|i86pc"}},
 	}
 	for _, pp := range ps {
 		pp.Compile()
